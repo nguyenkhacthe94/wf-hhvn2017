@@ -1,0 +1,53 @@
+﻿#mdl-book-ticket .form .group-input {
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.group-input .note {
+    color: #000;
+    font-size: 14px;
+    font-family: "OpenSans-Semibold";
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+    float: left;
+}
+
+.group-input .enter {
+    font-size: 14px;
+    display: inline-block;
+    width: 80%;
+    float: left;
+}
+
+    .group-input .enter .input {
+        outline: none;
+        border: none;
+        border-bottom: 1px solid #542670;
+        width: 100%;
+        padding: 0 10px 10px 10px;
+        background: transparent;
+    }
+
+.bl-search {
+    padding: 0 10px;
+    display: inline-block;
+    width: 100%;
+}
+
+.group-input .enter select {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #542670;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    background: url(http://hoahauhoanvuvietnam.com/images/ic-dropdown.png) no-repeat right center;
+    outline: none;
+    color: #000;
+}
+
+.group-input:before, .group-input:after {
+    content: '';
+    display: table;
+    clear: both;
+}

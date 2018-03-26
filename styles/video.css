@@ -1,0 +1,364 @@
+#mdl-video {
+  padding-top: 30px;
+  padding-bottom: 80px;
+}
+
+#mdl-video .title {
+  margin: 20px 0 0;
+  font-size: 30px;
+  color: #000;
+  text-transform: uppercase;
+  padding-left: 30px;
+  font-family: "OpenSans-Semibold";
+}
+
+#mdl-video hr {
+  max-width: 190px;
+  width: 100%;
+  margin: 10px 0 10px;
+  height: 2px;
+  background: #542670;
+  margin-left: 30px;
+}
+
+#mdl-video .box {
+  padding: 0 20px 20px;
+}
+
+#mdl-video .box .clips {
+  margin-top: 20px;
+}
+
+#mdl-video .box .finalists {
+  margin-top: 35px;
+}
+
+#mdl-video .box .box, #mdl-video .box .slide-finalists {
+  margin-top: 25px;
+}
+
+#mdl-video .box .line, #mdl-video .box .slide-finalists {
+  margin-left: -4px;
+  margin-right: -4px;
+}
+
+#mdl-video .box .title {
+  margin: 0;
+  font-size: 35px;
+  color: #fff;
+  text-transform: uppercase;
+  padding-left: 20px;
+}
+
+#mdl-video .box .line-bot {
+  display: none;
+  margin-top: 8px;
+}
+
+#mdl-video .box .col {
+  width: 33.33333333%;
+  float: left;
+  padding: 0 4px;
+  display: block;
+}
+
+#mdl-video .box .col .inner {
+  overflow: hidden;
+  display: block;
+  position: relative;
+  margin-bottom: 8px;
+}
+
+#mdl-video .box .col .inner .btn-play {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+#mdl-video .box .col .inner .wrap-name {
+  display: table;
+  background: rgba(84, 38, 112, 0.7);
+  text-align: center;
+  padding: 5% 10px;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#mdl-video .box .col .inner .wrap-name span {
+  font-family: "OpenSans";
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 16px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+#mdl-video .box .col:hover .img {
+  transform: scale(1.15, 1.15);
+  -ms-transform: scale(1.15, 1.15);
+  -webkit-transform: scale(1.15, 1.15);
+  -moz-transform: scale(1.15, 1.15);
+  -o-transform: scale(1.15, 1.15);
+}
+
+#mdl-video .box .col .img {
+  display: block;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  height: 270px;
+  transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  -webkit-transform: scale(1, 1);
+  -moz-transform: scale(1, 1);
+  -o-transform: scale(1, 1);
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
+}
+
+#mdl-video .box .btn-arr {
+  width: 42px;
+  height: 22px;
+  display: block;
+  margin: 30px auto 0;
+  background-size: cover !important;
+}
+
+#mdl-video .box .btn-arr.arr-show-video {
+  background: url(http://hoahauhoanvuvietnam.com/images/arr-show-video.png) no-repeat center center;
+}
+
+#mdl-video .box .btn-arr.arr-hide-video {
+  background: url(http://hoahauhoanvuvietnam.com/images/arr-hide-video.png) no-repeat center center;
+}
+
+@media only screen and (max-width: 991px) {
+  #mdl-video .title {
+    font-size: 20px;
+  }
+  #mdl-video .box {
+    padding: 0;
+  }
+  #mdl-video .box .col .img {
+    height: 200px;
+  }
+  #mdl-video .box .col .inner .btn-play {
+    width: 25px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  #mdl-video .box .col {
+    width: 100%;
+  }
+  #mdl-video .box .col .img {
+    height: 280px;
+  }
+}
+
+#mdl-video-detail {
+  margin-top: 30px;
+}
+
+#mdl-video-detail .title-big, #mdl-video-detail .title {
+  font-family: "OpenSans-Semibold";
+  margin: 0;
+  font-size: 35px;
+  color: #000;
+  text-transform: uppercase;
+  padding-left: 20px;
+}
+
+#mdl-video-detail .title {
+  font-size: 30px;
+}
+
+#mdl-video-detail .title-fellow {
+  font-family: "OpenSans-Semibold";
+  margin-top: 20px;
+  font-size: 35px;
+  color: #000;
+  text-transform: uppercase;
+  padding-left: 20px;
+}
+
+#mdl-video-detail hr {
+  max-width: 150px;
+  width: 100%;
+  margin: 10px 0 10px 20px;
+  height: 2px;
+  background: #542670;
+}
+
+#mdl-video-detail .group-fellow {
+  position: relative;
+  padding: 0 10px;
+  margin-top: 20px;
+}
+
+#mdl-video-detail .group-fellow .title {
+  margin: 0;
+  font-size: 35px;
+  color: #000;
+  text-transform: uppercase;
+  padding-left: 20px;
+}
+
+#mdl-video-detail .group-fellow hr {
+  max-width: 480px;
+  width: 100%;
+  margin: 10px 0 10px;
+  height: 2px;
+  background: #542670;
+}
+
+#mdl-video-detail .group-fellow .box {
+  margin-top: 25px;
+  padding-left: 6px;
+}
+
+#mdl-video-detail .group-fellow .box:before, #mdl-video-detail .group-fellow .box:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+#mdl-video-detail .group-fellow .col {
+  width: 33.33333333%;
+  float: left;
+  padding: 0 4px;
+  display: block;
+}
+
+#mdl-video-detail .group-fellow .col .inner {
+  overflow: hidden;
+  display: block;
+  position: relative;
+}
+
+#mdl-video-detail .group-fellow .col .inner .btn-play {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+#mdl-video-detail .group-fellow .col:hover .img {
+  transform: scale(1.15, 1.15);
+  -ms-transform: scale(1.15, 1.15);
+  -webkit-transform: scale(1.15, 1.15);
+  -moz-transform: scale(1.15, 1.15);
+  -o-transform: scale(1.15, 1.15);
+}
+
+#mdl-video-detail .group-fellow .col .img {
+  display: block;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  height: 170px;
+  transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  -webkit-transform: scale(1, 1);
+  -moz-transform: scale(1, 1);
+  -o-transform: scale(1, 1);
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
+}
+
+#mdl-video-detail .group-fellow .slick-arrow {
+  width: 12px;
+  height: 21px;
+  outline: none;
+  position: absolute;
+  top: 25%;
+  transform: translateY(-25%);
+  -webkit-transform: translateY(-25%);
+  -moz-transform: translateY(-25%);
+  -o-transform: translateY(-25%);
+  z-index: 100;
+  border: none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  opacity: 0.5;
+  background-size: cover !important;
+}
+
+#mdl-video-detail .group-fellow .slick-arrow:hover {
+  opacity: 1;
+}
+
+#mdl-video-detail .group-fellow .slick-prev {
+  left: 0;
+  background: url(http://hoahauhoanvuvietnam.com/images/arr-purple-prev.png) no-repeat center;
+}
+
+#mdl-video-detail .group-fellow .slick-next {
+  right: 0;
+  background: url(http://hoahauhoanvuvietnam.com/images/arr-purple-next.png) no-repeat center;
+}
+
+#mdl-video-detail .video-dff .line {
+  margin-top: 20px;
+  display: block;
+  position: relative;
+}
+
+#mdl-video-detail .video-dff .line:before, #mdl-video-detail .video-dff .line:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+#mdl-video-detail .video-dff .name {
+  font-family: "OpenSans";
+  margin-top: 8px;
+  font-size: 16px;
+  color: #542670;
+  text-transform: uppercase;
+  text-align: center;
+  display: table;
+}
+
+#mdl-video-detail .video-dff .image {
+  border-radius: 0;
+  float: left;
+  width: 35%;
+  margin-right: 10px;
+}
+
+#mdl-video-detail .video-dff .btn-play {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  width: 20px;
+}
+
+@media only screen and (max-width: 991px) {
+  #mdl-video-detail .title-big, #mdl-video-detail .title, #mdl-video-detail .title-fellow {
+    font-size: 20px;
+  }
+  #mdl-video-detail .video-dff {
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  #mdl-video-detail .video-dff .image {
+    width: 100%;
+    float: none;
+  }
+  #mdl-video-detail .video-dff .name {
+    margin-top: 10px;
+    display: block;
+  }
+}

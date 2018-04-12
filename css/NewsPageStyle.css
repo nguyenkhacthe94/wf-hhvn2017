@@ -342,6 +342,11 @@ p{
     font-weight: 300;
 }
 
+#sponsor-content .sponsor-slide{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
 #sponsor-content .swiper-container{
     margin-top: 10px;
     padding-top: 20px;
@@ -353,13 +358,11 @@ p{
 }
 
 #sponsor-content .swiper-button-next{
-    margin-right: 50px;
-    background: url("../images/arr-next-slide-sponsors.png") no-repeat center;
+    background: url("../Images/arr-next-slide-sponsors.png") no-repeat center;
 }
 
 #sponsor-content .swiper-button-prev{
-    margin-left: 50px;
-    background: url("../images/arr-prev-slide-sponsors.png") no-repeat center;
+    background: url("../Images/arr-prev-slide-sponsors.png") no-repeat center;
 }
 
 #footer-content{

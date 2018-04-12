@@ -29,6 +29,7 @@ p {
     font-family: inherit;
     vertical-align: baseline;
 }
-span{
+
+.style-text{
     font-style: italic;
 }

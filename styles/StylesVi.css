@@ -1,0 +1,11 @@
+﻿body, #mdl-contestant-detail .box-miss .box-info .name, #mdl-contestant-detail .box-miss .box-info .birth-day, #mdl-contestant-detail .box-miss .box-info .appellation span, #mdl-contestant-detail .box-miss .about .text span, #mdl-banner-slide .img .inner .box-text-slide .title, #mdl-banner-slide .img .inner .box-text-slide .watch {
+    font-family: 'OpenSans' !important;
+}
+
+#mdl-news .slide-news .title-news {
+    line-height: 28px;
+}
+
+#mdl-news .latest-news .latest h6, #mdl-news .news-info .inner .title-news-info, #mdl-news-detail .latest-news .latest h6 {
+    line-height: 20px;
+}

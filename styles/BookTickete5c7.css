@@ -1,0 +1,252 @@
+﻿#mdl-book-ticket .form .group-btn .btn-booking {
+    font-family: "OpenSans-Semibold";
+    display: block;
+    font-size: 15px;
+    text-align: center;
+    background: #542670;
+    border: 1px solid #542670;
+    padding: 12px;
+    width: 100%;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 1px;
+    outline: none;
+}
+
+.captcha-span {
+    display: block;
+    font-weight: bold;
+    color: #000;
+    font-size: 14px;
+    font-family: "OpenSans-Semibold";
+    margin-bottom: 5px;
+}
+
+.captcha-contant > div {
+    display: flex;
+}
+
+.captcha-contant .captchaImg {
+    margin-left: 15px;
+}
+
+.captcha-contant .error {
+    margin-top: 6px;
+    margin-left: 15px;
+    font-style: italic;
+}
+
+span[id*="lbNotice"] p {
+    margin: 40px 0 100px 15px;
+    font-style: italic;
+}
+
+#imageFullScreen {
+    margin: 0 !important;
+    width: 100%;
+}
+
+#imgContainer, .content {
+    position: relative;
+}
+
+#svgFullScreen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#positionButtonDiv {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.25);
+    padding: 6px;
+}
+
+.zoomButton {
+    cursor: pointer;
+}
+
+#svg-hhhv-seatchart .fil1 {
+    fill: transparent;
+    cursor: pointer;
+}
+
+    #svg-hhhv-seatchart .fil1:hover, #svg-hhhv-seatchart .fil1:focus {
+        fill: rgba(255, 255, 255, 0.5);
+    }
+
+.seatCharts-row {
+    text-align: center;
+    display: inline-flex;
+    min-width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+#seat-map {
+    text-align: center;
+    display: inline-block;
+    min-width: 100%;
+}
+
+.content-seat-map {
+    overflow: auto;
+}
+
+.text-compel {
+    font-style: italic;
+}
+
+li.seatCharts-legendItem {
+    line-height: 22px;
+    display: inline-block;
+    margin-right: 25px;
+}
+
+div.seatCharts-row:nth-child(2n+1) {
+    background: #f4f4f4;
+}
+
+.cacu-re {
+    display: flex;
+}
+
+.cacu-total {
+    margin-top: -10px !important;
+    padding-left: 0 !important;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    display: flex !important;
+}
+
+    .cacu-total b {
+        font-size: 20px;
+        background: #542670;
+        text-align: center;
+        padding: 10px 35px;
+        color: #fff;
+    }
+
+#step1-notice, #step2-notice {
+    display: none;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+span[id*="lbNotice"] p {
+    margin: 20px 0 15px 15px;
+    font-style: italic;
+}
+
+.seats-container {
+    margin-bottom: 10px;
+}
+
+#mdl-book-ticket .form .group-btn {
+    max-width: none;
+}
+
+    #mdl-book-ticket .form .group-btn .enter {
+        text-align: center;
+    }
+
+    #mdl-book-ticket .form .group-btn .btn-booking {
+        display: inline-block;
+        width: auto;
+        min-width: 180px;
+    }
+
+    #mdl-book-ticket .form .group-btn .btn-review {
+        background: #fff;
+        color: #542670;
+        margin: 0 15px;
+    }
+
+#pop-review-booking-info {
+    padding: 20px 30px;
+}
+
+    #pop-review-booking-info .title {
+        text-transform: uppercase;
+        font-family: "OpenSans-Semibold";
+        font-size: 28px;
+        margin-top: 0;
+        color: #542670;
+        text-align: center;
+    }
+
+    #pop-review-booking-info .group-input {
+        margin-bottom: 30px;
+        width: 100%;
+    }
+
+        #pop-review-booking-info .group-input:before, #pop-review-booking-info .group-input:after {
+            content: '';
+            display: table;
+            clear: both;
+        }
+
+        #pop-review-booking-info .group-input .note {
+            color: #000;
+            font-size: 14px;
+            font-family: "OpenSans-Semibold";
+            display: inline-block;
+            width: 30%;
+            vertical-align: top;
+        }
+
+        #pop-review-booking-info .group-input .enter {
+            font-size: 14px;
+            display: inline-block;
+            width: 62.5%;
+        }
+
+    #pop-review-booking-info .cl-line {
+        border-top-color: #542670;
+    }
+
+.delivery-notice {
+    float: left;
+    margin-right: 10px;
+}
+
+    .delivery-notice .fa {
+        color: #542670;
+        font-size: 16px;
+        cursor: help;
+    }
+
+    .delivery-notice .tooltip {
+        z-index: 99;
+    }
+
+    .delivery-notice .tooltip-inner {
+        background-color: #542670;
+    }
+
+    .delivery-notice .tooltip.top .tooltip-arrow {
+        border-top-color: #542670;
+    }
+
+    .delivery-notice + .choose {
+        width: 90%;
+    }
+
+@media (max-width: 500px) {
+    #mdl-book-ticket .form .group-btn .btn-booking {
+        display: block;
+        margin: 0 0 10px 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 848px){
+    .delivery-notice + .choose{
+         width: 88%;
+    }
+}

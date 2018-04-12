@@ -1,0 +1,34 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+h2 {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 14.5px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+p {
+    box-sizing: border-box;
+    margin: 0px 0px 10px;
+    padding: 0px;
+    border: 0px;
+    font-style: inherit;
+    font-variant: inherit;
+    font-weight: 400;
+    font-stretch: inherit;
+    font-size: 14px;
+    line-height: 1.7;
+    font-family: inherit;
+    vertical-align: baseline;
+}
+span{
+    font-style: italic;
+}

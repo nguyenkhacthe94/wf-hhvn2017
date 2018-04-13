@@ -73,7 +73,7 @@ p{
     padding-left: 35px;
     padding-right: 35px;
     /*position: fixed;*/
-    z-index: 999;
+    z-index: 888;
 }
 
 #menu-content ul {
@@ -96,13 +96,34 @@ p{
     font-size: 14px;
     color: white;
     font-weight: 200;
+    position: relative;
+}
+
+#menu-content ul li:hover > a:after{
+    opacity: 1;
+    visibility: visible;
+    z-index: 999;
+}
+
+#menu-content ul li a:after{
+    z-index: 999;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    opacity: 0;
+    visibility: hidden;
+    background: white;
+    bottom: -5px;
+    left: 0;
+    transition: 0.3s;
 }
 
 #menu-content ul li > .sub-menu {
     display: none;
     position: absolute;
     background: rgba(84, 38, 112, 0.7);
-    z-index: 999;
+    z-index: 777;
 }
 
 #menu-content ul li > .sub-menu li {
